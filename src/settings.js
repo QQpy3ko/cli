@@ -4,7 +4,7 @@ const os = require('os');
 const path = require('path');
 
 module.exports = (options = {}) => {
-  const homeDir = options.homedir || os.homedir();
+  const homeDir = '/media/aleksandr/vint/PROG/Hexlet';
   const hexletDir = path.join(homeDir, 'Hexlet');
   const cliSrcDir = path.join(__dirname, '..', 'src');
   const hexletConfigPath = path.join(hexletDir, '.config.json');
